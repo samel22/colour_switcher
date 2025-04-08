@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>javascript background switcher</title>
+  </head>
+  <style>
+
+body {
+      display: flex;  /* Flexbox to align items side by side */
+      gap: 10px;      /* Space between elements */
+      justify-content: center; /* Center the boxes horizontally */
+      align-items: center; /* Center the boxes vertically */
+      height: 100vh;  /* Full viewport height */
+      margin: 0;      /* Remove default margin */
+    }
+
+  #grey{
+     background-color: grey;
+     
+  }
+
+  #white{
+     background-color: white;
+     
+  }
+
+  #blue{
+     background-color: blue;
+  
+  }
+
+  #yellow{
+     background-color: yellow;
+     
+  }
+
+  .button {
+      height: 100px;
+      width: 100px;
+      margin-top: 20px;
+      border: 2px solid black;
+      cursor: pointer; /* Makes the div look clickable */
+    }
+
+  </style>
+  <body>
+  
+     <h1>color scheme switcher</h1>
+     
+  
+       <span class="button" id="grey" ></span>
+       <span class="button" id="white"></span>
+       <span class="button" id="blue"></span>
+       <span class="button" id="yellow"></span>
+    
+      
+  </body>
+  <script src="index.js"></script> 
+
+</html>
